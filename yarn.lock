@@ -85,6 +85,11 @@
   resolved "https://registry.yarnpkg.com/@algolia/client-common/-/client-common-5.33.0.tgz#8529347c4d3a0db8676131008684ea3a04af0f89"
   integrity sha512-Gq8Z4Fv0DkqDkf/bZl7ZwIF7PSCnRFwpyQoNDnUg+s4SwerXx6VwZJlIx/t5b9+l7vwWsjnKVivCfM4Ab5gw+g==
 
+"@algolia/client-common@5.33.0":
+  version "5.33.0"
+  resolved "https://registry.yarnpkg.com/@algolia/client-common/-/client-common-5.33.0.tgz#8529347c4d3a0db8676131008684ea3a04af0f89"
+  integrity sha512-Gq8Z4Fv0DkqDkf/bZl7ZwIF7PSCnRFwpyQoNDnUg+s4SwerXx6VwZJlIx/t5b9+l7vwWsjnKVivCfM4Ab5gw+g==
+
 "@algolia/client-personalization@4.20.0":
   version "4.20.0"
   resolved "https://registry.yarnpkg.com/@algolia/client-personalization/-/client-personalization-4.20.0.tgz#ca81308e8ad0db3b27458b78355f124f29657181"
@@ -149,17 +154,12 @@
   resolved "https://registry.yarnpkg.com/@algolia/requester-common/-/requester-common-4.20.0.tgz#65694b2263a8712b4360fef18680528ffd435b5c"
   integrity sha512-9h6ye6RY/BkfmeJp7Z8gyyeMrmmWsMOCRBXQDs4mZKKsyVlfIVICpcSibbeYcuUdurLhIlrOUkH3rQEgZzonng==
 
-"@algolia/requester-common@4.23.2":
-  version "4.23.2"
-  resolved "https://registry.yarnpkg.com/@algolia/requester-common/-/requester-common-4.23.2.tgz#9c2e5da4dc15e65f9b9bbe5bedb419cf23092ef1"
-  integrity sha512-3EfpBS0Hri0lGDB5H/BocLt7Vkop0bTTLVUBB844HH6tVycwShmsV6bDR7yXbQvFP1uNpgePRD3cdBCjeHmk6Q==
-
-"@algolia/requester-fetch@^4.23.2":
-  version "4.23.2"
-  resolved "https://registry.yarnpkg.com/@algolia/requester-fetch/-/requester-fetch-4.23.2.tgz#fd66ab41cdbff288b9054a156a93f77b3aa67695"
-  integrity sha512-ScmojcmwqGJMbpoAcSuufePl3XAg5CF1/m+jiMLyj4us3O+q9Ao+Js9MWeXBMj6BUwmuHa3uYz0HsBcl+5UsgA==
+"@algolia/requester-fetch@^5.33.0":
+  version "5.33.0"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-fetch/-/requester-fetch-5.33.0.tgz#0fbfc5eceb19b882c771cd476ba4157b2c6b10b8"
+  integrity sha512-NzTEGjwjPhUXPsrjj9nXM43+jtBVeL6UgGNBTQKsxjpqJ3EEAQ2Kq5g7DRK6mVDTQiTBWvBLKChJpn4qxwtLsg==
   dependencies:
-    "@algolia/requester-common" "4.23.2"
+    "@algolia/client-common" "5.33.0"
 
 "@algolia/requester-node-http@4.20.0":
   version "4.20.0"
