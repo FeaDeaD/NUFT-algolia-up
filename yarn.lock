@@ -105,10 +105,10 @@
   resolved "https://registry.yarnpkg.com/@algolia/client-common/-/client-common-5.33.0.tgz#8529347c4d3a0db8676131008684ea3a04af0f89"
   integrity sha512-Gq8Z4Fv0DkqDkf/bZl7ZwIF7PSCnRFwpyQoNDnUg+s4SwerXx6VwZJlIx/t5b9+l7vwWsjnKVivCfM4Ab5gw+g==
 
-"@algolia/client-common@5.34.1":
-  version "5.34.1"
-  resolved "https://registry.yarnpkg.com/@algolia/client-common/-/client-common-5.34.1.tgz#deff59fec28858da73091c42a7d6229e5666c673"
-  integrity sha512-otPWALs72KvmVuP0CN0DI6sqVx1jQWKi+/DgAiP8DysVMgiNlva3GDKTtAK6XVGlT08f4h32FNuL0yQODuCfKA==
+"@algolia/client-common@5.40.1":
+  version "5.40.1"
+  resolved "https://registry.yarnpkg.com/@algolia/client-common/-/client-common-5.40.1.tgz#df272c1eb491e7e4b15eaa44e4ad781630b4a438"
+  integrity sha512-gWfQuQUBtzUboJv/apVGZMoxSaB0M4Imwl1c9Ap+HpCW7V0KhjBddqF2QQt5tJZCOFsfNIgBbZDGsEPaeKUosw==
 
 "@algolia/client-insights@5.33.0":
   version "5.33.0"
@@ -233,14 +233,14 @@
     "@algolia/requester-node-http" "5.33.0"
 
 "@algolia/recommend@^5.34.1":
-  version "5.34.1"
-  resolved "https://registry.yarnpkg.com/@algolia/recommend/-/recommend-5.34.1.tgz#c93e7041812924c1eb3fba116cc6ab37a8c9059c"
-  integrity sha512-UdgDSrunLIBAAAxQlYLXYLnYFN4wkzkrAYx+wMLEk/pzASWyza3BkecbUFVqoYOBIgwo7Mt4iymzVtFkzL2uCQ==
+  version "5.40.1"
+  resolved "https://registry.yarnpkg.com/@algolia/recommend/-/recommend-5.40.1.tgz#db8395ce0d17ccba03a877b42dce1f205bbdf5b9"
+  integrity sha512-ehvJLadKVwTp9Scg9NfzVSlBKH34KoWOQNTaN8i1Ac64AnO6iH2apJVSP6GOxssaghZ/s8mFQsDH3QIZoluFHA==
   dependencies:
-    "@algolia/client-common" "5.34.1"
-    "@algolia/requester-browser-xhr" "5.34.1"
-    "@algolia/requester-fetch" "5.34.1"
-    "@algolia/requester-node-http" "5.34.1"
+    "@algolia/client-common" "5.40.1"
+    "@algolia/requester-browser-xhr" "5.40.1"
+    "@algolia/requester-fetch" "5.40.1"
+    "@algolia/requester-node-http" "5.40.1"
 
 "@algolia/requester-browser-xhr@4.25.2":
   version "4.25.2"
@@ -256,12 +256,12 @@
   dependencies:
     "@algolia/client-common" "5.33.0"
 
-"@algolia/requester-browser-xhr@5.34.1":
-  version "5.34.1"
-  resolved "https://registry.yarnpkg.com/@algolia/requester-browser-xhr/-/requester-browser-xhr-5.34.1.tgz#f1e56137eaaad41bd03c35ee9b88442d45fe1e49"
-  integrity sha512-567LfFTc9VOiPtuySQohoqaWMeohYWbXK71aMSin+SLMgeKX7hz5LrVmkmMQj9udwWK6/mtHEYZGPYHSuXpLQg==
+"@algolia/requester-browser-xhr@5.40.1":
+  version "5.40.1"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-browser-xhr/-/requester-browser-xhr-5.40.1.tgz#cddc52f7dc8e4b4a1051f90e55336d9573df62af"
+  integrity sha512-PbidVsPurUSQIr6X9/7s34mgOMdJnn0i6p+N6Ab+lsNhY5eiu+S33kZEpZwkITYBCIbhzDLOvb7xZD3gDi+USA==
   dependencies:
-    "@algolia/client-common" "5.34.1"
+    "@algolia/client-common" "5.40.1"
 
 "@algolia/requester-common@4.25.2":
   version "4.25.2"
@@ -275,12 +275,12 @@
   dependencies:
     "@algolia/client-common" "5.33.0"
 
-"@algolia/requester-fetch@5.34.1", "@algolia/requester-fetch@^5.33.0":
-  version "5.34.1"
-  resolved "https://registry.yarnpkg.com/@algolia/requester-fetch/-/requester-fetch-5.34.1.tgz#0d37b636a8c392791f97027f8dd71cf01f6c9be3"
-  integrity sha512-YRbygPgGBEik5U593JvyjgxFjcsyZMR25eIQxNHvSQumdAzt5A4E4Idw3yXnwhrmMdjML54ZXT7EAjnTjWy8Xw==
+"@algolia/requester-fetch@5.40.1", "@algolia/requester-fetch@^5.33.0":
+  version "5.40.1"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-fetch/-/requester-fetch-5.40.1.tgz#3ec36412f7d10f4270a59e456d8e71a2eda58ea8"
+  integrity sha512-ThZ5j6uOZCF11fMw9IBkhigjOYdXGXQpj6h4k+T9UkZrF2RlKcPynFzDeRgaLdpYk8Yn3/MnFbwUmib7yxj5Lw==
   dependencies:
-    "@algolia/client-common" "5.34.1"
+    "@algolia/client-common" "5.40.1"
 
 "@algolia/requester-node-http@4.25.2":
   version "4.25.2"
@@ -296,12 +296,12 @@
   dependencies:
     "@algolia/client-common" "5.33.0"
 
-"@algolia/requester-node-http@5.34.1", "@algolia/requester-node-http@^5.21.0":
-  version "5.34.1"
-  resolved "https://registry.yarnpkg.com/@algolia/requester-node-http/-/requester-node-http-5.34.1.tgz#5f7ad024c81d8aca4b8b025c1ad9ecb843c75b01"
-  integrity sha512-o0mqRYbS82Rt4DE02Od7RL6pNtV7oSxScPuIw8LW4aqO2V5eCF05Pry/SnUgcI/Vb2QCYC66hytBCqzyC/toZA==
+"@algolia/requester-node-http@5.40.1", "@algolia/requester-node-http@^5.21.0":
+  version "5.40.1"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-node-http/-/requester-node-http-5.40.1.tgz#ed3a9b1846f7d6be88839522ca0d337159d5ff66"
+  integrity sha512-H1gYPojO6krWHnUXu/T44DrEun/Wl95PJzMXRcM/szstNQczSbwq6wIFJPI9nyE95tarZfUNU3rgorT+wZ6iCQ==
   dependencies:
-    "@algolia/client-common" "5.34.1"
+    "@algolia/client-common" "5.40.1"
 
 "@algolia/transporter@4.25.2":
   version "4.25.2"
